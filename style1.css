@@ -1,0 +1,135 @@
+body{
+  background-color: #FFF8F7;
+  color: #101010;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #101010;
+}
+.logo{
+  width: 15vw;
+  height: auto;
+}
+.aqerru{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btns-access{
+  align-content: space-around;
+}
+.img{
+  display: flex;
+  margin: auto;
+}
+.btn{
+  padding: 8px 24px;
+  background-color: #CC1111;
+  border:2px solid #900000;
+  border-radius: 6px;
+  color:white;
+  font-size: large;
+  cursor: pointer;
+}
+.btn-insc{
+  margin-left:15px;
+  cursor:pointer;
+}
+.article{
+  width: 30vw;
+  height: 10vw;
+  background-color: #900000;
+}
+.art{
+  display: flex;
+  flex-wrap: pre-wrap;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+
+/*Partie footer dediee a utiliser independamment lors du PHP */
+.sepa{
+  border: 1px solid #101010;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 70%;
+  margin: auto;
+
+  
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+  width: 32px;
+  height: 32px;
+}
+.reseaux{
+  display:flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.end{
+  width: 360px;
+}
+
+
+
+
+
+/* Relatif au Javascript */
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* les dot */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* l'animation fade*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Pour le responsive */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

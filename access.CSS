@@ -1,0 +1,276 @@
+body {
+	background-color: #FFF8F6;
+	margin: 0;
+	font-family: calibri;
+}
+h5{
+	font-size: 120px;
+}
+header{
+	background: #CC1111;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-right: 60px;
+	align-items: center;
+	margin: auto;
+}
+.logo{
+	background-color: #FFF8F6;
+	border-radius: 20px;
+	margin-left: 5px;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+
+}
+nav li{
+	display: flex;
+
+}
+nav a{
+	color: #FFF8F6;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 12px;
+	border-radius: 2px;
+	margin-left: 15px;
+}
+nav a:hover{
+	background-color: #900000;
+}
+nav a:before{
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #FFF8F6;
+	position: absolute;
+	top: 10px;
+	width: 0%;
+	margin-left: -12px;
+	transition: all ease-in-out 300ms;
+}
+nav a.ouioui:hover::before{width: 122px}
+nav a.nono:hover::before{width: 89.5px}
+nav a.maybe:hover::before{width: 98.25px}
+.textile{
+
+	margin-left: 25px;
+
+}
+.dropdown{
+	display: block;
+	align-items: center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.corp{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+select {
+	background-color:#ebebeb;
+	padding: 15px 10px;
+	border-radius: 8px;
+	border:1px solid #838383;
+	box-shadow: 0 15px 15px #efefef;
+}
+input{
+	display: block;
+	width: 400px;
+	margin: auto;
+	padding: 15px 12px;
+	border: 1px solid #838383;
+	border-radius:8px;
+	background-color:#ebebeb;
+	margin-bottom: 15px;
+}
+.searching{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-items: center;
+
+}
+.search{display: flex;}
+.launch{
+	background: #CC1111;
+	border: 1px solid #110D10;
+	box-sizing: border-box;
+	border-radius: 8px;
+	color:#FFF8F6;
+	padding: 12px 25px;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-around;
+}
+.card {
+  width: 360px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.2s ease-in;border-radius: 6px;
+  background-color: #dcdcdc;
+  padding: 4px 16px;margin-bottom: 15px;
+
+}
+
+.card:hover {
+  box-shadow: 2px 8px 16px 2px rgba(0, 0, 0, 0.532);
+}
+.container1 {
+  padding: 2px 16px;
+}
+.column {
+  display: block;
+  padding: 0 10px;
+  margin: auto;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn{
+
+	border-radius: 8px;
+	height: 40px;
+}
+.der{
+	background-color:#CC1111 ;
+	color: #FFF8F6;
+	border: 2px solid #900000;
+	border-radius: 8px;
+	padding: 0px 5px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.der:hover{
+	background-color: #990000;
+}
+.tel{
+	border:2px solid #110D10;
+	color: black;
+	background-color: #FFF8F6;
+	border-radius: 8px;
+	padding: 0px 5px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.tel:hover{
+	background-color: #101010;color: #FFF8F6;
+}
+
+
+.opt{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.cont{
+	display: flex;
+	height:90px ;
+	justify-content: space-between;
+
+}
+.catal{
+	margin: 0 50px 0 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	width: 480px;
+
+}
+.btnz{
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 12px 10px;
+	display: flex;
+	justify-content: center;align-items: center;
+	margin: auto;
+
+	font-size: 14px;
+}
+.ajout{
+	background-color: #d92626;
+	color: white;
+	border:2px solid #900000;
+}
+.ajout:hover{
+	background-color: #900000;
+}
+.consu,.don{
+	color: #101d10;
+	border: 2px solid #101d10;
+	background-color: #FFF8F6;
+}
+.consu:hover , .don:hover{
+	background-color: #101d10;
+	color: white;
+}
+.dynamik{
+	width:75%;
+	background-color: #0094c5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	height: 100px;
+}
+.inf{
+	display: block;
+}
+.informacions{
+	display: flex;
+	justify-content: space-around;
+}
+.maloumat{
+	font-size: 24px;
+}
+/* PARTIE FOOTER DEDIEE */
+.sepa{
+	border: 1px solid #101010;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	width: 70%;
+	margin: auto;
+  
+  }
+  footer{
+	  display: flex;
+	  justify-content: space-around;
+	  margin: auto;
+  }
+  .icon{
+	width: 32px;
+	height: 32px;
+  }
+  .reseaux{
+	display:flex;
+	width: 180px;
+	justify-content: space-around;
+  }
+  .end{
+	width: 360px;
+  }
+  .footing{
+	  width: 100%;
+	  margin: auto;
+	  display: block;
+	  align-items: center;
+	  justify-content: center;
+  }
+/* Pour le responsive */
+@media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+  }
